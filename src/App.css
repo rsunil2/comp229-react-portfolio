@@ -261,3 +261,26 @@
     line-height: 1.6;
     margin: 10px auto;
 }
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.service {
+    padding: 25px;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+.service h2 {
+    margin-bottom: 12px;
+}
+
+.service p {
+    line-height: 1.6;
+}
