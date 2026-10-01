@@ -1,28 +1,51 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 const Home = () => {
-    return(
+    return (
         <main className="home">
-            <h1>Welcome to my Portfolio</h1>
 
-            <h2>Software Engineering & AI Student</h2>
+            <section className="hero-section">
 
-            <p>
-                Welcome to my personal portfolio. 
-                I am a Software Engineering Technology - AI student with an interest in software delveopment, databases and AI.
+                <p className="hero-intro">Hello, I'm</p>
 
-            </p>
+                <h1>Ryan Sunil</h1>
 
-            <p>
-                My goal is to continue developing practical software solutions while expanding my knowledge of modern technologies
-            </p>
+                <h2>Software Engineering & AI Student</h2>
 
-             <Link to="/about" className="button">
-                Learn More About Me
-            </Link>
-           
+                <p className="hero-description">
+                    I am a Software Engineering Technology - Artificial
+                    Intelligence student with an interest in web development,
+                    software development, databases and AI.
+                </p>
+
+                <p className="mission">
+                    My goal is to build practical software solutions that
+                    solve real-world problems, with a growing focus on
+                    business and logistics applications.
+                </p>
+
+                <div className="hero-buttons">
+
+                    <Link to="/about" className="hero-button">
+                        About Me
+                    </Link>
+
+                    <Link to="/projects" className="hero-button secondary">
+                        View Projects
+                    </Link>
+
+                </div>
+
+                <div className="focus-areas">
+                    <span>Web Development</span>
+                    <span>Logistics Software</span>
+                    <span>Databases</span>
+                    <span>AI & Data</span>
+                </div>
+
+            </section>
+
         </main>
-        
     )
 }
 
