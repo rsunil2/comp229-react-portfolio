@@ -284,3 +284,37 @@
 .service p {
     line-height: 1.6;
 }
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+}
+
+.about-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid currentColor;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}

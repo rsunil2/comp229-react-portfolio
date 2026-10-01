@@ -1,31 +1,44 @@
 const About = () => {
-    return(
+    return (
         <main>
-        <h1>About Me</h1>
+            <h1>About Me</h1>
 
-       
-        <img
-            src="/RyanS.jpg"
-            alt="Ryan Sunil"
-            className="profile-photo"
-        />
-            
+            <section className="about-container">
 
-        <h2>Ryan Sunil</h2>
+                <img
+                    src="/RyanS.jpg"
+                    alt="Ryan Sunil"
+                    className="profile-photo"
+                />
 
-        <p>I am a Software Engineering Technology - AI student at Centennial College.
+                <h2>Ryan Sunil</h2>
 
-        </p>
+                <div className="about-text">
+                    <p>
+                        I am a Software Engineering Technology - Artificial
+                        Intelligence student at Centennial College with an
+                        interest in web development, software development,
+                        databases and artificial intelligence.
+                    </p>
 
-        <p>
-             I am interested in software development, artifical intelligence, databases and web technologies
-        </p>
+                    <p>
+                        I enjoy building practical software solutions,
+                        including web applications and systems designed
+                        to support business and logistics operations.
+                    </p>
+                </div>
 
-        <a href="/Ryan-Sunil-Resume.pdf" target="_blank">
-            View My Resume
-        </a>
+                <a
+                    href="/Ryan-Sunil-Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="resume-button"
+                >
+                    View My Resume
+                </a>
 
-    </main>
+            </section>
+        </main>
     )
 }
 
