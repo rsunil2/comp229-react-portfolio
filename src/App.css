@@ -237,3 +237,27 @@
     border-radius: 6px;
     cursor: pointer;
 }
+.project {
+    max-width: 1000px;
+    margin: 0 auto 60px auto;
+    padding: 20px;
+}
+
+.project img {
+    width: 60%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px auto;
+    border-radius: 10px;
+}
+
+.project div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project p {
+    line-height: 1.6;
+    margin: 10px auto;
+}
