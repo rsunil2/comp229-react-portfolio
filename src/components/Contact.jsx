@@ -15,7 +15,7 @@ const Contact = () => {
 
     const handleChange = (event) => {
         setFormData({
-            ...FormData,
+            ...formData,
             [event.target.name]: event.target.value
         });
     };
@@ -49,7 +49,7 @@ const Contact = () => {
              type="text"
             name="lastName"
             placeholder="Last Name"
-            value={formData.firstName}
+            value={formData.lastName}
             onChange={handleChange}
             required 
             />
@@ -73,7 +73,7 @@ const Contact = () => {
             />
 
             <textarea
-            name="Message"
+            name="message"
             placeholder="Message"
             value={formData.message}
             onChange={handleChange}
