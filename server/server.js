@@ -22,6 +22,13 @@ const app = express();
 
 app.use(express.json()); // for parsing application/json
 
+// Backend welcome route
+app.get('/', (req, res) => {
+    res.status(200).json({
+        message: "Welcome to My Portfolio application."
+    });
+});
+
 app.use('/projects', authMiddleware, projectsRoutes);
 app.use('/users', userRoutes);
 
